@@ -10,6 +10,7 @@ header {
 
 .headerFull {
     max-width: 80%;
+    padding: 16px;
 }
 
 .headerTop {
@@ -68,9 +69,13 @@ ul {
 .square {
     height: 100px;
     width: 100px;
-    margin: auto;
+    margin: 0 auto;
     border-radius: 10px;
-    border: 1px solid;
+    border: 3px solid #3882f6;
+}
+
+.box {
+    max-width: 150px;
 }
 
 p {
@@ -82,20 +87,26 @@ p {
     display: flex;
     text-align: center;
     gap: 8px;
-    padding: 48px;
+    padding: 0 48px;
+    justify-content: center;
 }
 
 .quote {
     padding: 48px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: #e5e7eb;
 }
 
 .quote p {
     font-size: 36px;
     color: #1f2937;
+    max-width: 80%;
+}
+
+.author {
+    align-self: flex-end;
 }
 
 .action {
@@ -105,7 +116,9 @@ p {
     border-radius: 10px;
     align-items: center;
     background-color: #3882f6;
-    color: #e5e7eb;e    
+    color: #e5e7eb;
+    max-width: 80%;  
+    margin: 0 auto;  
 }
 
 .action button {
@@ -137,8 +150,4 @@ button {
     justify-content: center;
     background-color: #1f2937;
     color: #e5e7eb;
-}
-
-* {
-    border: 1px solid;
 }
